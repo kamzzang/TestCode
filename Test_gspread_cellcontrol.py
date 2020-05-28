@@ -62,3 +62,7 @@ list_of_lists = worksheet.get_all_values()
 
 # Getting All Values From a Worksheet as a List of Dictionaries
 list_of_dicts = worksheet.get_all_records()
+
+# Find a cell matching a string:
+cell = worksheet.find("Dough")
+print("Found something at R%sC%s" % (cell.row, cell.col))
