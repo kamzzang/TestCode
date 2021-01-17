@@ -3,8 +3,8 @@ just test
 
 ------
 
-* Slacke Bot Test
-* Google spread sheet control
+* Slack Bot Test
+* Google spread sheet control(read, write, cell control)
 * String module
 * Qtimer
 * Stock 호가 계산
